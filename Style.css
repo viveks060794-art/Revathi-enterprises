@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F7F7F7;
+    color: #222;
+}
+
+/* HERO */
+.hero {
+    background: #0A3D62;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.hero-buttons {
+    margin-top: 20px;
+}
+.btn-primary {
+    background: #F1C40F;
+    padding: 12px 24px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.btn-outline {
+    border: 2px solid #F1C40F;
+    padding: 12px 24px;
+    color: #F1C40F;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* INDUSTRIES */
+.industry-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* WHY */
+.why-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.why-card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* PRODUCTS */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.price {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A3D62;
+}
+
+/* CONTACT */
+footer {
+    background: #0A3D62;
+    color: white;
+    padding: 40px 20px;
+}
